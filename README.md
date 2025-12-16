@@ -19,14 +19,30 @@ npm start
 npm run dev
 ```
 
-# Para testear el post en thunderclient:
-```bash
-POST http://localhost:8080/api/auth/login
-Content-Type: application/json  
+## Endpoints
+
+Base URL:
+```
+http://localhost:8080/xxx
+```
+
+### Crear (POST)
+```
+POST /xxx
+Content-Type: application/json
+
 {
-    "email": "",
-    "password": ""
+  "id": 1,
+  "temperatura": 25
 }
 ```
 
-Probando ssh
+### Obtener por ID (GET)
+```
+GET /xxx/:id
+```
+
+### Obtener todos (GET)
+```
+GET /xxx
+```
