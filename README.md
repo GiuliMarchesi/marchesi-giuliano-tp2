@@ -24,8 +24,8 @@ npm run dev
 POST http://localhost:8080/api/auth/login
 Content-Type: application/json  
 {
-    "email": "
-    "password": "
+    "email": "",
+    "password": ""
 }
 ```
 
